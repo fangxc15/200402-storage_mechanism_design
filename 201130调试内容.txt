@@ -1,0 +1,20 @@
+调试内容
+       1. 要改变输入，拉大净负荷的差异
+       2. 要证明VCG机制的有效性，原本机制的无效性
+	也就是输入不同的充放电里程成本时
+                 对应的VCG(w).LMPpayment是储能总收到的LMP支付
+	对应的VCG(w).totalpayment是储能收到的VCG支付
+
+    Result1(w).welfare里有储能在LMP下的利润      完成
+	Result1(w).welfare可以计算所有主体的总社会福利   完成
+	VCG(w).ESSincome是各主体在ESS下的payment      OK
+	VCG(w).ESSwelfare是各ESS主体的利润	            完成
+
+	是否可以定义所有主体的社会福利？ Result1(w).welfare.social
+
+       3. 要计算社会福利的变化，如果在optimal bidding的情况下，固定住ESS的bidding，重新出清
+
+       4. 还需要做的，分block申报尾充放电里程成本和ending SOC valuation，输入参数也需要修改，模型需要修改，最后的计算福利也需要修改。
+
+
+       

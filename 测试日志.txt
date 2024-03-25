@@ -1,0 +1,9 @@
+测试日志：
+
+验证settlement机制的效果，只需要利用scenario 1
+
+主要看main_mechanism和S_compare
+
+0312里的结果，是储能ending SOC value 40-60的结果
+0313，把end soc value改成了35-55
+0314，进一步提高了储能的规模
